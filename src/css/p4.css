@@ -1,0 +1,31 @@
+
+.PartName{
+    width: auto;
+    height: 100px;
+    background-size: 400px 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../image/topic4.png);
+    margin-top:-100px;
+
+}
+.pics1{
+    margin-top: 50px;
+    width:auto;
+    height:300px;
+    background-size: 225px 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../image/selfie3.jpg);
+
+}
+
+.pics2{
+    margin-top: 50px;
+    width:auto;
+    height:300px;
+    background-size: 400px 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../image/selfie4.jpg);
+}

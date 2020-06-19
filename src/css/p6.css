@@ -1,0 +1,71 @@
+table.innerframe{
+    width: 75%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin: 20px auto 40px auto;
+    width: 75%;
+}
+form{
+    display: block;
+}
+
+table.table1 {
+    width: 100%;
+    padding-top: 1px;
+    font-family: 仿宋;
+    margin-top: 0;
+}
+.firstword{
+    text-align: left;
+
+}
+.topword{
+    border-bottom: 2px solid #ccff00;
+    color: #666;
+    text-align: center;
+    height: 43px;
+    overflow: hidden;
+    background: url(../image/PWeb.png) no-repeat 10px 20px ;
+
+    background-size: 165px auto;
+}
+.question_wrapper{
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #cce8ff;
+    padding: 1px;
+    background-color: #FFFFFF;
+}
+.question{
+    font-family:黑体;
+    font-size: 17px;
+    background-color: #cce8ff;
+    text-align: left;
+}
+.radio_list{
+    text-align: left;
+    list-style-type: none;
+    font-family: 仿宋;
+
+}
+.table2{
+    width:100%;
+    text-align: left;
+}
+.textarea{
+    margin:5px;
+    padding-left:5px;
+
+}
+.submit{
+    width:100%;
+    text-align:center;
+    background-color:#cce8ff ;
+    border: 0px solid white;
+    margin-top: 100px;
+}
+.button-text{
+    font-family: 仿宋;
+    font-size: 16px;
+}

@@ -1,0 +1,96 @@
+div{
+    display:block;
+
+}
+.header {
+    height: 60px;
+    overflow: hidden;
+    zoom: 1;
+    border-bottom: 1px solid #d6dfea;
+    background: #ffffff;
+}
+.header a, .footer a {
+    color: #1d5494;
+}
+a{
+    color: #225592;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.header_logo {
+    float: left;
+    width: 170px;
+    height: 50px;
+    margin-top: 0px;
+    margin-left: 35px;
+    text-indent: -9999em;
+    background-size: 170px 50px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url(../image/PWeb.png);
+}
+@media (min-width: 1070px){
+    .header_link {
+        padding-right: 40px;
+    }
+}
+/*.header_link {*/
+/*    overflow: hidden;*/
+/*    margin-top: 16px;*/
+/*    padding-right: 17px;*/
+/*    line-height: 30px;*/
+/*    text-align: right;*/
+/*    color: #b6b6b6;*/
+/*}*/
+.footer {
+    position: fixed;
+    _position: static;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    clear: both;
+    line-height: 36px;
+    text-align: center;
+    color: #b6b6b6;
+    background-color: #eff4fa;
+    border-top: 1px solid #d6dfea;
+    font-size:12px;
+}
+
+
+/*div#nav*/
+/*{*/
+/*    height: 35px;*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0;*/
+/*    background: #b39858;*/
+/*}*/
+ul#menu{
+    height: 48px;
+    width:40%;
+    margin-top: 10px;
+    padding: 0 0 0 300px;
+    position: relative;
+    float:right;
+}
+ul#menu li{
+    float:left;
+    list-style-type: none;
+    padding:5px 20px;
+    font-style:normal;
+    width:100px;
+
+
+}
+ul#menu a{
+
+    text-decoration:none;
+    font-family: 宋体;
+    color:black;
+}
+
